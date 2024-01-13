@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="sign_up.css" />
+    <title>sign in</title>
+
+</head>
+<body>
+  
+    <div class="container">
+        <header>
+            <a class="logo" href="#">
+                <img src="E-Gym2.png" alt="Logo">
+            </a>
+        </header>
+
+
+        <div class="content">
+                    
+          <div class="sign_up">
+            <h2>Sign Up</h2>
+          </div>
+            <form action="sign_up.php" method="post">
+              <input type="text" id="username" name="username" placeholder="Full name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="tel" id="number" name="phone" placeholder="Phone" pattern="[0-9]*" required>
+                <input type="password" id="pwd" name="pwd" placeholder="Password" required>
+                <div class="radio">
+                    <input type="radio" id="x" value="css" name="x" required>
+                    <label for="x">By continuing you accept our Privacy Policy</label>
+                </div>
+                 <div class="submit">
+                    <button type="submit">Sign In</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="sign_in">
+          <h3>Sign in with</h3>
+        </div>
+
+        <div class="icons">
+          <form>
+              <!-- Google Sign In -->
+              <a href="#" target="_blank" class="social-icon">
+                <img src="goole.png" alt="Google" class="social-icon">
+              </a>
+
+              <!-- Apple Sign In -->
+              <a href="#" target="_blank" class="social-icon">
+                <img src="apple.png" alt="Google" class="social-icon">
+              </a>
+
+              <!-- Facebook Sign In -->
+              <a href="#" target="_blank" class="social-icon">
+                <img src="facebook.png" alt="Google" class="social-icon">
+              </a>
+        
+        </div>
+
+
+    </div>
+  </form>
+</body>
+</html>
